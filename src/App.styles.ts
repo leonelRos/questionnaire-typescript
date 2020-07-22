@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 ////@ts-ignore
 // import BGImage from './images/'
 
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: light-blue;
+    background-color: blue;
     background-size: cover;
     margin: 0;
     padding: 0 20px;

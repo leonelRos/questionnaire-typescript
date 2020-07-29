@@ -62,7 +62,6 @@ function App() {
 
   const nextQuestion = () => {
     const nextQuestion = number + 1;
-
     if (nextQuestion === TOTAL_QUESTIONS) {
       setGameOver(true);
     } else {
